@@ -1,0 +1,30 @@
+h1 {
+     text-align: center;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+#content input{
+    margin: 6px;
+} 
+
+#content input[type="button"] {
+ 
+}
+
+#panelColor{ 
+    background-color: #563d7c;
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
