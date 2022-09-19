@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(/img/pokemon.jpg);
+	/*background-color: rgb(29, 206, 88);*/
+}
+
+h1{
+	text-transform: uppercase;
+	background-color: red;
+	width: 70%;
+	margin-top: 50px;
+}
+
+#card {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	background-color: red;
+	width: 70%;
+	height: 600px;
+	border-radius: 10px;
+	border: 1px 1px blue solid;
+	border-style: solid;
+	-webkit-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+#name {
+	text-align: center;
+	color: white;
+}
+
+.poster {
+	margin: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 80%;
+	border-radius: 10px;
+	background-color: white;
+
+}
+
+
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
