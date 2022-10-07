@@ -8,8 +8,22 @@ const buttonInsert = document.getElementById("buttonInsert");
 
 function clickButton () {
     listaDeTareas.push(insertNewTask.value)
-    return displayTask.innerHTML += '<br>'+insertNewTask.value;
+    document.cookie = listaDeTareas;
+    return displayTask.innerHTML += '<br>'+ "<b>-"+insertNewTask.value+"</b>";
+}
+arrayTareas = document.cookie;
+console.log(arrayTareas[1])
+if (document.cookie != null) {
     
+
+    for (let i = 0; i < arrayTareas.length; i++) {
+        const element = arrayTareas[i];
+        if (arrayTareas[i] == ",") {
+            displayTask.innerHTML += '<br>'
+        }
+        displayTask.innerHTML += "<b>"+arrayTareas[i]+"</b>";
+    }
+
 }
 
 buttonInsert.addEventListener("click", clickButton);
