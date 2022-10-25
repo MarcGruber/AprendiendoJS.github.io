@@ -22,7 +22,8 @@ const cargarPeliculas = async() =>{
                 console.log(datos)
                 console.log(datos.sprites.front_default)
                 container.innerHTML = `<h1 id="name">${datos.name}</h1>`
-                carta = `<img class="poster"  src=${datos.sprites.front_default}>`
+                carta = `<img class="poster" src=${datos.sprites.front_default}>`
+                console.log(carta)
                 card.innerHTML = carta
             }
     
