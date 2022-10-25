@@ -12,15 +12,16 @@ h1{
 	text-transform: uppercase;
 	background-color: red;
 	width: 70%;
-	margin-top: 50px;
+	margin-top: 1%;
 }
 
 #card {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
+	margin-top: 1%;
+	margin-bottom: 10%;
 	background-color: red;
-	width: 70%;
+	width: 50%;
 	height: 60%;
 	border-radius: 10px;
 	border: 1px 1px blue solid;
@@ -40,6 +41,7 @@ box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 80%;
+	height: 60%;
 	border-radius: 10px;
 	background-color: white;
 
