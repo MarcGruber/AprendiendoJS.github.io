@@ -118,8 +118,11 @@ function compruebaPareja(valorCartaActual, clicked_id) {
         }
         else {
             cartasEmparejadas = [];
-            valor1.innerHTML = ""
-            valor2.innerHTML = ""
+            setTimeout(function(){
+                valor1.innerHTML = ""
+                valor2.innerHTML = ""
+            }, 1000);
+
             position = 0
             console.log("Incorrecto")
         }
