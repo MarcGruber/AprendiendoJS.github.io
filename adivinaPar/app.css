@@ -1,0 +1,17 @@
+:root{
+    --red: ;
+    --tipo-titulos : 'Playfair Display SC', serif;
+    --tipo-principal :'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style:none;
+    background-color: rgb(228, 226, 226);
+    color: rgb(0, 0, 0);
+}
+
