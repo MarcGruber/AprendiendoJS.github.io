@@ -4,7 +4,7 @@ let cartasEmparejadas = [];
 let puntosConseguidos = 0;
 var cardUnic = document.getElementsByClassName('cardE');
 let clics = 0;
-let timeMax = 120
+let timeMax = 95
 
 let cartas = [0, 0, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11]
 const maxPuntuacion = cartas.maxlength/2
@@ -49,6 +49,7 @@ function Temporizador(inicio, final){
     this.conteoSegundos = function(){
         if (this.contador== this.final) {
             conteoSegundos = null;
+            id.innerHTML = "Tiempo Finalizado"
             for (let i = 0; i < cardUnic.length; i++) {
                 let valor = document.getElementById(`${i}`)
                 valor.disabled = true
