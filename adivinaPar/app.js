@@ -121,7 +121,7 @@ function compruebaPareja(valorCartaActual, clicked_id) {
             setTimeout(function(){
                 valor1.innerHTML = ""
                 valor2.innerHTML = ""
-            }, 1000);
+            }, 500);
 
             position = 0
             console.log("Incorrecto")
